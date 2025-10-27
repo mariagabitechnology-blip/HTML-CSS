@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url();
+
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in, px, pt pc
+            centímetros, milimetros, polegadas, pixel, ponto e a paica ou payca
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente é = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: normal;
+            /* weight width height
+            peso, largura, altura 
+            
+            aceitos para p font-weight: lighter normal bold bolder*/
+
+        }
+
+        h1{
+            /* shorthand font    
+            -font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-style: italic;
+            font-weight: bolder
+            
+            */
+            font: italic bolder 3em 'Times New Roman', Times, Serif;
+        }
+
+        h2{
+            font: bold 2em 'Times New Roman';
+
+        }
+    </style>
+</head>
+<body>
+   <h1>Trabalhando com Fontes</h1> 
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, quibusdam? Id illo aspernatur dolorem modi repudiandae velit minima. Velit, et earum? Nostrum nam eos, quo ab porro accusamus est rem!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nesciunt laboriosam optio omnis architecto tenetur ut asperiores ratione deleniti quae velit, quibusdam eos provident quasi a repudiandae, quod possimus minima!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quasi illum ipsam ea, praesentium, quo incidunt accusamus omnis dolorem cupiditate officia perferendis, adipisci eaque recusandae? Sequi ducimus doloremque non expedita.</p>
+   <h2>Subtítulo do Exercício</h2>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni amet sit, deleniti reprehenderit voluptate quia saepe deserunt maiores illum? Illum, nihil voluptates? Enim sapiente nihil in fuga neque distinctio!</p>
+</body>
+</html>
